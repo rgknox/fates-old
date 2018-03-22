@@ -110,9 +110,6 @@ variables:
 	float fates_phen_ncolddayslim(fates_scalar) ;
 		fates_phen_ncolddayslim:units = "days" ;
 		fates_phen_ncolddayslim:long_name = "day threshold exceedance for temperature leaf-drop" ;
-	float fates_size_diagnostic_scale(fates_scalar) ;
-		fates_size_diagnostic_scale:units = "0 for equal (linear), 1 for exponential" ;
-		fates_size_diagnostic_scale:long_name = "Flag to specify equal or exponential size axis diagnostic scaling." ;
 	float fates_stress_mort(fates_scalar) ;
 		fates_stress_mort:units = "/yr" ;
 		fates_stress_mort:long_name = "mortality rate associated with hydraulic stress exceedence" ;
@@ -604,8 +601,6 @@ data:
  fates_phen_mindayson = 30 ;
 
  fates_phen_ncolddayslim = 5 ;
-
- fates_size_diagnostic_scale = 1 ;
 
  fates_stress_mort = 0.6 ;
 
